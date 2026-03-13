@@ -1,4 +1,4 @@
-# Parishram Vidhyalay — School Management System (MERN)
+# Attendify Management System (MERN)
 
 A full-featured **School Management System** designed to manage students, classes, attendance, tests, and academic records through **Admin, Teacher, and Student portals**.
 
@@ -357,57 +357,6 @@ GET /api/tests/class/:classId
 ```
 
 ---
-
-# Installation Guide
-
-## 1. Clone Repository
-
-```
-git clone https://github.com/your-username/parishram-vidhyalay.git
-cd parishram-vidhyalay
-```
-
----
-
-## 2. Install Backend Dependencies
-
-```
-cd backend
-npm install
-```
-
-Run server:
-
-```
-npm run dev
-```
-
----
-
-## 3. Install Frontend Dependencies
-
-```
-cd frontend
-npm install
-npm run dev
-```
-
----
-
-# Environment Variables
-
-Create `.env` file in backend.
-
-Example:
-
-```
-PORT=5000
-MONGO_URI=your_mongodb_connection
-JWT_SECRET=your_secret_key
-```
-
----
-
 # Future Improvements
 
 Possible enhancements include:
@@ -426,10 +375,6 @@ Possible enhancements include:
 
 **Khush Patel**
 
-Developer of Parishram Vidhyalay School Management System.
+Developer of Attendify Management System.
 
 ---
-
-# License
-
-This project is for educational and demonstration purposes.
